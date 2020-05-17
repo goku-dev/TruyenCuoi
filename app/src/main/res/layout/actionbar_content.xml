@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/d_56"
+    android:orientation="horizontal"
+    android:background="@color/colorBlueNew">
+
+    <ImageView
+
+        android:id="@+id/iv_back_actionbar_content"
+        android:layout_width="@dimen/d_56"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_back"
+        android:tint="@color/colorwhite"
+        />
+
+    <TextView
+        android:id="@+id/tv_chude_content"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/d_56"
+        android:textSize="@dimen/d_30"
+        android:text="Công sở"
+        android:gravity="center"
+        android:textColor="@color/colorwhite"/>
+
+    <TextView
+        android:id="@+id/tv_a_cong"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/d_30"
+        android:text="A+"
+        android:gravity="center"
+        android:textColor="@color/colorwhite"
+       android:layout_marginLeft="100dp"/>
+    <TextView
+        android:id="@+id/tv_a_tru"
+        android:layout_marginLeft="@dimen/d_20"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/d_30"
+        android:text="A-"
+        android:gravity="center"
+        android:textColor="@color/colorwhite"
+     />
+
+    <ImageView
+        android:id="@+id/iv_heart"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/d_20"
+        android:src="@drawable/ic_heart"
+        android:tint="@color/colorwhite"
+        android:scaleType="fitCenter"
+        />
+
+</LinearLayout>

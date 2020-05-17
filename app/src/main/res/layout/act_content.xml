@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/actionbar_content" />
+
+
+
+    <ScrollView
+        android:background="@color/colorBlue"
+       android:layout_marginTop="@dimen/d_56"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:textColor="@color/colorItem"
+
+                android:id="@+id/tv_tittle_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/d_16"
+                android:layout_marginRight="@dimen/d_16"
+                android:text="hello"
+                android:textSize="@dimen/d_30" />
+
+            <TextView
+                android:textColor="@color/colorBlack"
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/d_16"
+                android:layout_marginTop="@dimen/d_20"
+                android:layout_marginRight="@dimen/d_16"
+                android:text="hello"
+                android:textSize="@dimen/d_20" />
+        </LinearLayout>
+
+    </ScrollView>
+    <ImageView
+        android:id="@+id/iv_back_content"
+        android:layout_width="@dimen/d_40"
+        android:layout_height="@dimen/d_40"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bg_ic_back_next"
+        android:src="@drawable/ic_back"
+        android:tint="@color/colorBlue" />
+
+    <ImageView
+        android:id="@+id/iv_next_content"
+        android:layout_width="@dimen/d_40"
+        android:layout_height="@dimen/d_40"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/bg_ic_back_next"
+        android:src="@drawable/ic_next"
+        android:tint="@color/colorBlue" />
+
+
+</FrameLayout>

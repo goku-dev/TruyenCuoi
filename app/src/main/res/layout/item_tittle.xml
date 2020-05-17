@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/d_20">
+
+    <ImageView
+
+        android:padding="5dp"
+        android:id="@+id/iv_smile"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:background="@color/colorBlueNew"
+        android:src="@drawable/ic_smile"
+        android:tint="@color/colorwhite"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:id="@+id/tv_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlueNew"
+        android:textStyle="italic"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/d_16"
+        android:text="chủ đề truyện"
+        android:textColor="@color/colorwhite"
+        android:textSize="@dimen/d_30" />
+
+</LinearLayout>
